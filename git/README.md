@@ -9,7 +9,6 @@ These commands cover the basics of version control with **Git** and interacting 
 The diagram above shows the basic Git workflow: **Working Directory** → **Staging Area** → **Local Repository** → **Remote Repository**.
 
 > [!IMPORTANT]
->
 > You need to set your identity at first:
 > ```bash
 > git config --global user.name "Your Name"
@@ -117,6 +116,7 @@ The diagram above shows how Git merges work, creating a new merge commit that co
     Shows a visual representation of commit history and branches.
 
 > [!TIP]
+> An interesting visual tutorial that teaches **Git** through a series of progressive challenges within a live sandbox environment is available at [https://learngitbranching.js.org/](https://learngitbranching.js.org/).
 >
 > Use `git help <command>` for more details on any command.
 >
@@ -151,11 +151,9 @@ The diagram above shows how Git merges work, creating a new merge commit that co
     Downloads and merges changes from the specified branch on [**Github**](https://github.com/).
 
 > [!CAUTION] 
-> 
 > If `git merge` or `git pull` results in conflicts, edit the conflicting files, stage them with `git add`, and complete the commit.
 
 > [!NOTE]
-> 
 > To create a pull request on [**Github**](https://github.com/) 's website:
 >
 >     1. Navigate to the repository.
